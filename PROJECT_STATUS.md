@@ -5,7 +5,7 @@ Current stage: Stage 1 — Task Scheduling Engine (H01 starting)
 Current hackathon: H01-priority-scheduler
 Current GitHub issue: #3 — [H01] Set up C++ project with CMake
 Current task: Review H01 learning objectives, then set up CMake project
-Latest verified commit: f828bde — docs: complete Stage 0 — documentation verified and consistent
+Latest verified commit: 9d4744c — docs: finalize Stage 0 — update commit SHA and session handoff pointers
 
 ## Overall Progress
 Estimated hours: 550
