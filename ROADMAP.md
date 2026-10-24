@@ -10,7 +10,7 @@ Total Estimated Effort: 550 hours across 10 stages (Stage 0 through Stage 9)
 
 | Stage | Name | Hours | Status |
 |-------|------|-------|--------|
-| 0 | Project Setup and Baseline | 10h | In Progress |
+| 0 | Project Setup and Baseline | 10h | **Complete** |
 | 1 | Task Scheduling Engine (C++, DSA) | 60h | Not Started |
 | 2 | Distributed Task Execution (Redis, C++) | 70h | Not Started |
 | 3 | Concurrent Worker Execution (C++, Multithreading) | 60h | Not Started |
@@ -26,11 +26,13 @@ Total Estimated Effort: 550 hours across 10 stages (Stage 0 through Stage 9)
 
 ## Checkpoints
 
-| Checkpoint | Cumulative Hours | Milestone Description |
-|-----------|-----------------|----------------------|
-| Checkpoint 1 | ~150h | Functional distributed Voice AI MVP (Stages 0-4 complete) |
-| Checkpoint 2 | ~300h | GPU-backed inference with initial benchmarks (Stages 5-6 complete) |
-| Checkpoint 3 | ~550h | Advanced portfolio-ready platform (all stages complete) |
+| Checkpoint | Cumulative Hours | Stages Complete | Milestone Description |
+|-----------|-----------------|-----------------|----------------------|
+| Checkpoint 1 | ~150h | Stages 0–2 (140h) | C++ scheduler built and benchmarked; Redis distributed task queue operational |
+| Checkpoint 2 | ~300h | Stages 3–4 (280h cumulative) | Concurrent worker pool running; first working end-to-end Voice AI pipeline |
+| Checkpoint 3 | ~550h | Stages 5–9 | GPU-optimized, cloud-deployed, benchmark-documented portfolio platform |
+
+> **Note:** Checkpoint hours are planning targets across the whole project budget. Stage groupings are approximate — e.g., Stage 5 (90h) may overlap with or push Checkpoint 2 past 300h. Track actual hours in PROJECT_STATUS.md.
 
 ---
 
@@ -53,7 +55,7 @@ Total Estimated Effort: 550 hours across 10 stages (Stage 0 through Stage 9)
 
 ## Stage 0: Project Setup and Baseline
 
-**Status:** In Progress
+**Status:** Complete
 **Estimated Hours:** 10h
 
 ### Objective

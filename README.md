@@ -2,8 +2,8 @@
 
 **GPU-Optimized Distributed Inference Infrastructure for Real-Time Voice AI**
 
-[![Status](https://img.shields.io/badge/status-Stage%200%20In%20Progress-yellow)](PROJECT_STATUS.md)
-[![Stage](https://img.shields.io/badge/stage-0%20of%209-blue)](ROADMAP.md)
+[![Status](https://img.shields.io/badge/status-Stage%201%20In%20Progress-yellow)](PROJECT_STATUS.md)
+[![Stage](https://img.shields.io/badge/stage-1%20of%209-blue)](ROADMAP.md)
 [![License](https://img.shields.io/badge/license-MIT-green)](#license)
 
 ---
@@ -176,7 +176,7 @@ VoiceGrid/
 
 | Stage | Name | Hours | Status |
 |-------|------|-------|--------|
-| 0 | Project Setup and Baseline | 10h | In Progress |
+| 0 | Project Setup and Baseline | 10h | **Complete** |
 | 1 | Task Scheduling Engine (C++, DSA) | 60h | Not Started |
 | 2 | Distributed Task Execution (Redis, C++) | 70h | Not Started |
 | 3 | Concurrent Worker Execution (C++, Multithreading) | 60h | Not Started |

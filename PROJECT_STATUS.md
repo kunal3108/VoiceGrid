@@ -1,18 +1,18 @@
 # VoiceGrid Project Status
 
 Last updated: 2026-10-24
-Current stage: Stage 0 — Project Setup and Baseline
-Current hackathon: None (Stage 0 nearly complete)
-Current GitHub issue: #1 — Verify documentation completeness
-Current task: Verify Stage 0 acceptance criteria, then begin H01
-Latest verified commit: eebe176 — chore: update PROJECT_STATUS with verified commit SHA and remote URL
+Current stage: Stage 1 — Task Scheduling Engine (H01 starting)
+Current hackathon: H01-priority-scheduler
+Current GitHub issue: #3 — [H01] Set up C++ project with CMake
+Current task: Review H01 learning objectives, then set up CMake project
+Latest verified commit: pending (Stage 0 close commit)
 
 ## Overall Progress
 Estimated hours: 550
 Actual hours completed: 0
 Hours remaining: 550
-Milestones completed: None
-Milestones remaining: Stage 0 completion, 150h checkpoint, 300h checkpoint, 550h checkpoint
+Milestones completed: Stage 0 — Project Setup and Baseline
+Milestones remaining: Checkpoint 1 (~150h), Checkpoint 2 (~300h), Checkpoint 3 (550h)
 
 ## Completed Work
 - Repository directory structure created
@@ -29,8 +29,9 @@ Milestones remaining: Stage 0 completion, 150h checkpoint, 300h checkpoint, 550h
 - Labels created: engineering, learning, benchmark, stage-0, stage-1, H01, C++, DSA
 
 ## In Progress
-- Stage 0: Project setup and baseline
-- Issue #1: Verify documentation completeness
+- Stage 1 / H01: Task Scheduling Engine
+- Issue #3: Set up C++ CMake project in hackathons/H01-priority-scheduler/
+- Issue #4: Learn C++ structs, vectors, and priority_queue (prerequisite for #5)
 
 ## Blockers
 None.
@@ -42,9 +43,9 @@ None — no implementation code exists yet.
 None — setup phase. No implementation challenges yet.
 
 ## Next Three Actions
-1. Resolve Issue #1: verify documentation consistency (check links, hour totals, cross-references)
-2. Close Issue #1, mark Stage 0 complete in ROADMAP.md
-3. Begin H01 Issue #3: Set up C++ CMake project in hackathons/H01-priority-scheduler/
+1. Complete Issue #3: set up C++ CMake project in hackathons/H01-priority-scheduler/ (src/, include/, tests/, CMakeLists.txt, main.cpp)
+2. Complete Issue #4: implement Task struct and learn std::priority_queue (teaching-first)
+3. Complete Issue #5: implement IScheduler interface and FIFOScheduler
 
 ## Important Constraints
 - Do not begin VoiceGrid implementation code until Stage 0 acceptance criteria are satisfied
